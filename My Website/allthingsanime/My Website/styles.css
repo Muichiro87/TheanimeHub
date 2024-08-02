@@ -1,0 +1,87 @@
+/* Styles for the gallery */
+.gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery a {
+    display: block;
+    width: 150px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Additional Lightbox2 custom styles can be added here */
+/* .gallery styles define the layout and appearance of image thumbnails */
+.gallery {
+    display: flex; /* Use flexbox for layout */
+    gap: 10px; /* Spacing between items */
+}
+
+/* Styles for thumbnail images in the gallery */
+.gallery img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #141414; /* Large images */
+    border-radius: 4px; /* Rounded corners */
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+}
+
+/* Zoom effect on hover */
+.gallery img:hover {
+    transform: scale(1.05); /* Slight zoom */
+}
+/* Reset default margin and padding for the entire page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-height and full-width container to hold background */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Apply background image to the body */
+body {
+    /* Background image properties */
+    background-image: url('images/545909.jpg');
+    background-size: cover; /* Scale the image to cover the whole viewport */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the image fixed during scrolling */
+    color: #0a0909; /* Default text color to Black for better contrast */
+    font-family: 'Roboto', sans-serif; /* Set a default font */
+}
+
+/* Example styling for main content */
+.container {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding around content */
+}
+
+/* Style for headings */
+h1 {
+    font-size: 3em; /* Large font size for headings */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Style for paragraphs */
+p {
+    font-size: 1.2em; /* Slightly larger font size for readability */
+    line-height: 1.6; /* Increase line height for better readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
